@@ -1,0 +1,67 @@
+.bmi
+{
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    background-color:antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg,blue,pink,rgb(209,164,254));
+
+}
+span
+{
+    color: red;
+}
+input
+{
+    height: 50px;
+    width: 180px;
+    border-radius: 10%;
+    font-size: 20px;
+    background-color:cornsilk;
+    text-align: center;
+}
+h1{
+    background-color: blue;
+    height: 60px;
+    padding: 0px;
+    position: relative;
+    bottom: 28px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-shadow: 5px 5px 4px black;
+}
+form
+{
+    background-color:beige;
+    position: relative;
+    bottom: 52px;
+}
+.res
+{
+    position: relative;
+    bottom: 50px;
+}
+.cal
+{
+    background-color: aqua;
+    cursor: pointer;
+    font-size: 30px;
+}
+.cal:hover
+{
+    background-color: violet;
+}
+::placeholder
+{
+    color:black;
+    text-align: center;
+}
